@@ -20,12 +20,12 @@ void loop()
   if(degreesC < 37)
   {
     Serial.print(degreesC);
-  Serial.println(" SAVE!");
+  Serial.println(" IT IS SAFE!");
   }
   if(degreesC > 37)
   {
     Serial.print(degreesC);
-    Serial.println(" ALERT!");
+    Serial.println(" ALERTTTTTT!");
     digitalWrite(buzzer, LOW);
     digitalWrite(9,HIGH);
     tone(12, 10000,100);
